@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Hello</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-   
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
- 
-  </head>
-   
-  <body>
+  <title>Hello</title>
 
-    <nav class="navbar navbar-expand-lg sticky-top navbar-dark bg-dark">
-      <div class="container">
-        
-      
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://kit.fontawesome.com/40eedc49ec.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg sticky-top navbar-dark ">
+    <div class="container">
+
+
       <a class="navbar-brand" href="/">IG</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
@@ -35,64 +41,74 @@
           <li class="nav-item">
             <a class="nav-link" href="/contact.html">Contact</a>
           </li>
-          
+
         </ul>
       </div>
     </div>
 
-    </nav>
+  </nav>
 
 
-          
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Ishwor Giri</h1>
-        <p class="lead">Student, Software Developer , Tech Enthusiast</p>
-        <div>
-          <button type="button" class="btn btn-dark mt-1">Twitter</button>
-          <button type="button" class="btn btn-dark mt-1">Facebook</button>
-          <button type="button" class="btn btn-dark mt-1">LinkedIn</button>
-          <button type="button" class="btn btn-dark mt-1">Github</button>
+
+  <div class="jumbotron jumbotron-fluid bg-gradient-primary
+   full-height text-white">
+    <div class="container">
+      <h1 class="display-4">Ishwor Giri</h1>
+      <p class="lead">Student, Software Developer , Tech Enthusiast</p>
+      <div>
+        <button type="button" class="btn btn-dark bg-prime mt-1">Twitter</button>
+        <button type="button" class="btn btn-dark  bg-prime mt-1">Facebook</button>
+        <button type="button" class="btn btn-dark  bg-prime mt-1">LinkedIn</button>
+        <button type="button" class="btn btn-dark  bg-prime mt-1">Github</button>
 
 
-          
 
-        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="container" id="projects">
+    <!-- Page Content goes here -->
+    <h1>Projects</h1>
+    <hr class="my-4">
+
+    <div class="card  mb-3 shadow ">
+      <h5 class="card-header">Blog Admin <a href="#" class="badge  bg-prime badge-pill badge-primary"><i
+            class="fas fa-external-link-alt"></i> </a> </h5>
+      <div class="card-body">
+        <p class="card-text">Basic Blog Website with simple admin panel to post new content.</p>
+        <div class="toolsused  bg-prime text-white p-1 d-inline"> NodeJs, Express,  MongoDB</div>
       </div>
     </div>
 
+    <div class="card mb-3 shadow">
+      <h5 class="card-header">Featured <a href="#" class="badge  bg-prime badge-pill badge-primary"><i
+        class="fas fa-external-link-alt"></i> </a></h5>
+      <div class="card-body">
+        <h5 class="card-title">Special title treatment</h5>
+        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+        <div class="toolsused   bg-prime text-white p-1 d-inline"> NodeJs, MongoDB</div>
 
-      <div class="container" id="projects" >
-        <!-- Page Content goes here -->
-        <h1>Projects</h1>
-        <hr class="my-4">
-
-        <div class="card  mb-3 shadow ">
-          <h5 class="card-header">Blog Admin <a href="#" class="badge badge-pill badge-primary">></a> </h5> 
-          <div class="card-body">
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <div class="bg-primary text-white p-1"> > NodeJs, MongoDB</div>
-          </div>
-        </div>
-
-        <div class="card mb-3 shadow">
-          <h5 class="card-header">Featured</h5>
-          <div class="card-body">
-            <h5 class="card-title">Special title treatment</h5>
-            <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-            <a href="#" class="btn btn-primary">Go somewhere</a>
-          </div>
-        </div>
       </div>
-          
-    
-  </body>
+    </div>
+  </div>
 
-  <footer>
-   
-  </footer>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</body>
+
+<footer class="container-fluid bg-dark text-white">
+  <div class="container" style="text-align: center;padding:10px ">
+    © ISHWOR GIRI | me.ishworgiri.com.np
+</div>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+  integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
 </html>
