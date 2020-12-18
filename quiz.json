@@ -1,6 +1,5 @@
-{
-    "response":0,
-    "result": [{
+
+[{
       "question": "Who is the youngest person to recieve a Nobel Prize?",
       "qoptions": [
         "Lawrence Bragg",
@@ -15,5 +14,4 @@
           "Which of the following carbonated soft drinks were introduced first?",
       "qoptions": ["Dr. Pepper", "Coca-Cola", "Sprite", "Mountain Dew"],
       "answer": "Dr. Pepper",
-    }],
-}
+    }]
