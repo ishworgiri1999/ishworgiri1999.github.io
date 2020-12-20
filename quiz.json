@@ -1,13 +1,13 @@
 [
    {
-      "question":"What is the capital of Nepal?",
+      "question":"What was the capital of Nepal before Kathmandu?",
       "qoptions":[
          "Bhaktapur",
          "Kritipur",
          "Gorkha",
          "None"
       ],
-      "answer":"Kathmandu"
+      "answer":"Bhaktapur"
    },
    {
       "question":"What is the name of the beautiful lake by which Pokhara lies?",
