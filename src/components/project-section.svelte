@@ -1,0 +1,34 @@
+<script lang="ts">
+  import Project from "./project.svelte";
+
+  const projects = [
+    {
+      name: "Quizel",
+      description:
+        "This project is a simple quiz application fetching data from internet and presenting it as a game.",
+      technologies: ["Dart", "Flutter","Android/IOS"],
+    },
+    {
+      name: "BlendEats",
+      description:
+        "Simple Food Marketplace made for diverse Community. Worked as a Team Member",
+        technologies: ["PHP", "MySQL","HTML/CSS"],
+    },
+    {
+      name: "Beer Game",
+      description:
+        "A simple supply chain management system.",
+        technologies: ["Python", "REST API","Django"],
+    },
+  ];
+</script>
+
+<div>
+  <h3>Projects</h3>
+
+  <ul role="list" class="divide-y divide-gray-100">
+    {#each projects as project}
+      <Project {...project} />
+    {/each}
+  </ul>
+</div>
