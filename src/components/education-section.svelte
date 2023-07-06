@@ -13,8 +13,8 @@
     address: "Philadelphia, USA",
     major: "Study Abroad - Computer Science",
     duration: {
-      start: "September 2022",
-      end: "December 2022",
+      start: "September 2021",
+      end: "December 2021",
     },
   },
   {
