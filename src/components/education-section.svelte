@@ -5,7 +5,7 @@
     major: "Masters in Computer Science",
     address: "Munich, Germany",
     duration: {
-      start: "2022",
+      start: " October 2022",
     },
   },
   {
@@ -13,8 +13,8 @@
     address: "Philadelphia, USA",
     major: "Study Abroad - Computer Science",
     duration: {
-      start: "2022",
-      end: "2022",
+      start: "September 2022",
+      end: "December 2022",
     },
   },
   {
@@ -23,8 +23,8 @@
     address: "Bremen, Germany",
 
     duration: {
-      start: "2019",
-      end: "2022",
+      start: "August 2019",
+      end: "June 2022",
     },
   },
 ];
