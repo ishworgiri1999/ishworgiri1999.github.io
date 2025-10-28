@@ -32,8 +32,6 @@
 		</div>
 
 		<div class="relative text-center">
-			<Designs />
-
 			<div>
 				<a
 					href="/cv.pdf"

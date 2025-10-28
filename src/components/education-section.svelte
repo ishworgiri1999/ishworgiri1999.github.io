@@ -27,7 +27,7 @@
 				end: 'June 2022'
 			}
 		}
-	];
+	] as const;
 	import Education from './education.svelte';
 </script>
 

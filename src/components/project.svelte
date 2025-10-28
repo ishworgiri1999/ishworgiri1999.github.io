@@ -1,8 +1,8 @@
-<script>
+<script lang="ts">
 	import Chip from './chip.svelte';
 	export let name = '';
 	export let description = '';
-	export let technologies = [];
+	export let technologies: readonly string[] = [];
 	export let link = '';
 </script>
 

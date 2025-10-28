@@ -16,7 +16,7 @@
 			skills: ['React Native', 'React', 'Svelte'],
 			duration: { start: 'April 2021', end: 'March 2023' }
 		}
-	];
+	] as const;
 </script>
 
 <div>

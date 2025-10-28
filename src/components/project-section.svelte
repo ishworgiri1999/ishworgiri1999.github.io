@@ -22,7 +22,7 @@
 			description: 'A simple supply chain management system.',
 			technologies: ['Python', 'REST API', 'Django']
 		}
-	];
+	] as const;
 </script>
 
 <div>
