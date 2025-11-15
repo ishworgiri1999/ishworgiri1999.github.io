@@ -26,9 +26,9 @@
 </script>
 
 <div>
-	<h3 class="text-2xl">Projects</h3>
+	<h2 class="text-2xl font-semibold dark:text-[#ededed] text-[#0a0a0a] mb-8">Projects</h2>
 
-	<ul role="list" class="divide-y divide-gray-100">
+	<ul role="list" class="divide-y divide-[#e5e5e5] dark:divide-[#262626]">
 		{#each projects as project}
 			<Project {...project} />
 		{/each}

@@ -1,5 +1,4 @@
 <script>
-	import Designs from '../components/designs.svelte';
 	import EducationSection from '../components/education-section.svelte';
 	import MainSection from '../components/main-section.svelte';
 	import ProjectSection from '../components/project-section.svelte';
@@ -14,33 +13,24 @@
 	/>
 </svelte:head>
 
-<div class="relative isolate">
-	<Designs />
-	<div class="mx-auto max-w-2xl py-12 gap-16 flex flex-col">
-		<div class="relative">
-			<MainSection />
-		</div>
+<div class="mx-auto max-w-2xl px-6 py-16 lg:py-24">
+	<MainSection />
 
-		<div id="work" class="relative">
-			<WorkSection />
-		</div>
-		<div id="education">
-			<EducationSection />
-		</div>
-		<div id="project">
-			<ProjectSection />
-		</div>
-
-		<div class="relative text-center">
-			<Designs />
-
-			<div>
-				<a
-					href="/cv.pdf"
-					class="rounded-md border border-purple-300 px-1 text-purple-500 text-sm font-semibold shadow-sm"
-					>Download My CV</a
-				>
-			</div>
-		</div>
+	<div id="work" class="mt-20">
+		<WorkSection />
 	</div>
+	
+	<div id="education" class="mt-20">
+		<EducationSection />
+	</div>
+	
+	<div id="project" class="mt-20">
+		<ProjectSection />
+	</div>
+
+	<footer class="mt-20 pt-8 border-t border-[#e5e5e5] dark:border-[#262626]">
+		<p class="text-xs dark:text-[#737373] text-[#737373]">
+			© {new Date().getFullYear()} Ishwor Giri • Built with SvelteKit & TailwindCSS
+		</p>
+	</footer>
 </div>

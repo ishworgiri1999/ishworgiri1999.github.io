@@ -5,7 +5,8 @@
 			major: 'Masters in Computer Science',
 			address: 'Munich, Germany',
 			duration: {
-				start: ' October 2022'
+				start: 'October 2022',
+				end: 'July 2025'
 			}
 		},
 		{
@@ -32,8 +33,8 @@
 </script>
 
 <div>
-	<h3 class="text-2xl">Education</h3>
-	<ul role="list" class="divide-y divide-gray-100">
+	<h2 class="text-2xl font-semibold dark:text-[#ededed] text-[#0a0a0a] mb-8">Education</h2>
+	<ul role="list" class="divide-y divide-[#e5e5e5] dark:divide-[#262626]">
 		{#each educationData as ed}
 			<Education {...ed} />
 		{/each}

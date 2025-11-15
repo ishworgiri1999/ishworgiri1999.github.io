@@ -1,5 +1,5 @@
 <div
-	class="border-gray-200 bg-gray-100 dark:border-gray-300 px-1 py-0.5 text-gray-700 text-xs border rounded-lg"
+	class="border-[#e5e5e5] dark:border-[#262626] bg-[#fafafa] dark:bg-[#171717] px-2 py-1 dark:text-[#ededed] text-[#0a0a0a] text-xs border rounded-lg font-medium"
 >
 	<slot />
 </div>
